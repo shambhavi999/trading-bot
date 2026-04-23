@@ -1,0 +1,294 @@
+{"timestamp": "2026-04-22T18:25:26.479944Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-22T18:25:27.436440Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-22T18:25:38.581950Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776882338581, 'signature': '4f536d7f1d6926ed466aaf67c7834d1e4953bc84859c5639b53b5028ae70577e'}"}
+{"timestamp": "2026-04-22T18:25:39.282207Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2014,\"msg\":\"API-key format invalid.\"}"}
+{"timestamp": "2026-04-22T18:26:02.067320Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776882362066, 'signature': '7118a8d07c44218a013313f7a85b6b7d9bf1018d18e1654012764fe2868ef45f'}"}
+{"timestamp": "2026-04-22T18:26:02.659130Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:35:34.245873Z", "level": "INFO", "name": "Orders", "message": "Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}"}
+{"timestamp": "2026-04-23T05:35:34.246659Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Intercepted MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}"}
+{"timestamp": "2026-04-23T05:35:34.547814Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Simulating order response for MARKET BUY BTCUSDT"}
+{"timestamp": "2026-04-23T05:35:34.548137Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Order successfully simulated. ID: 4200563607"}
+{"timestamp": "2026-04-23T05:35:53.004005Z", "level": "INFO", "name": "Orders", "message": "Placing LIMIT order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'timeInForce': 'GTC', 'price': '50000.0'}"}
+{"timestamp": "2026-04-23T05:35:53.004513Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Intercepted LIMIT order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'timeInForce': 'GTC', 'price': '50000.0'}"}
+{"timestamp": "2026-04-23T05:35:53.305310Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Simulating order response for LIMIT SELL BTCUSDT"}
+{"timestamp": "2026-04-23T05:35:53.305638Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Order successfully simulated. ID: 4945423567"}
+{"timestamp": "2026-04-23T05:38:18.080569Z", "level": "INFO", "name": "werkzeug", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on all addresses (0.0.0.0)\n * Running on http://127.0.0.1:5000\n * Running on http://10.35.129.148:5000"}
+{"timestamp": "2026-04-23T05:38:18.081122Z", "level": "INFO", "name": "werkzeug", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m"}
+{"timestamp": "2026-04-23T05:38:18.084640Z", "level": "INFO", "name": "werkzeug", "message": " * Restarting with stat"}
+{"timestamp": "2026-04-23T05:38:18.914631Z", "level": "WARNING", "name": "werkzeug", "message": " * Debugger is active!"}
+{"timestamp": "2026-04-23T05:38:18.922469Z", "level": "INFO", "name": "werkzeug", "message": " * Debugger PIN: 168-655-851"}
+{"timestamp": "2026-04-23T05:38:35.713226Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:08:35] \"\u001b[35m\u001b[1mGET / HTTP/1.1\u001b[0m\" 500 -"}
+{"timestamp": "2026-04-23T05:38:35.778192Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:08:35] \"\u001b[35m\u001b[1mGET /favicon.ico HTTP/1.1\u001b[0m\" 500 -"}
+{"timestamp": "2026-04-23T05:39:35.448121Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:09:35] \"\u001b[35m\u001b[1mGET /api HTTP/1.1\u001b[0m\" 500 -"}
+{"timestamp": "2026-04-23T05:39:35.698679Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:09:35] \"\u001b[35m\u001b[1mGET /favicon.ico HTTP/1.1\u001b[0m\" 500 -"}
+{"timestamp": "2026-04-23T05:42:24.754354Z", "level": "INFO", "name": "werkzeug", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on all addresses (0.0.0.0)\n * Running on http://127.0.0.1:5000\n * Running on http://10.35.129.148:5000"}
+{"timestamp": "2026-04-23T05:42:24.755028Z", "level": "INFO", "name": "werkzeug", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m"}
+{"timestamp": "2026-04-23T05:42:24.757455Z", "level": "INFO", "name": "werkzeug", "message": " * Restarting with stat"}
+{"timestamp": "2026-04-23T05:42:25.282098Z", "level": "WARNING", "name": "werkzeug", "message": " * Debugger is active!"}
+{"timestamp": "2026-04-23T05:42:25.284996Z", "level": "INFO", "name": "werkzeug", "message": " * Debugger PIN: 168-655-851"}
+{"timestamp": "2026-04-23T05:42:25.308166Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:25] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:27.728785Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:27] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:30.623175Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:42:30.629668Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776922950624, 'signature': '14363b0dd32eb95cb6e0f06099b749f75fc92c820db27ef7b77b24c11279eb22'}"}
+{"timestamp": "2026-04-23T05:42:30.629925Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776922950629, 'signature': 'e4bc149d9a7b76280daeded39f891ecf73eb14ef59803adc8bc2fbf6e0540701'}"}
+{"timestamp": "2026-04-23T05:42:30.648362Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:30] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:32.689066Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:42:32.693858Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:32] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:42:32.784696Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:42:32.788016Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:32] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:42:33.273468Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:42:33.277003Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:33] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:35.286159Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:35] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:37.967234Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:37] \"OPTIONS /api/order HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:38.233034Z", "level": "INFO", "name": "Orders", "message": "Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002'}"}
+{"timestamp": "2026-04-23T05:42:38.233879Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "POST https://testnet.binancefuture.com/fapi/v1/order - Data: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1776922958233, 'signature': 'ffa8d94c3be0fd76c407a52238a8be402bf007d209702a3ee9497cdfec2b16f0'}"}
+{"timestamp": "2026-04-23T05:42:39.495568Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:42:39.496416Z", "level": "ERROR", "name": "Orders", "message": "Failed to place order: Binance API Error -2015: Invalid API-key, IP, or permissions for action"}
+{"timestamp": "2026-04-23T05:42:39.498981Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:39] \"\u001b[31m\u001b[1mPOST /api/order HTTP/1.1\u001b[0m\" 400 -"}
+{"timestamp": "2026-04-23T05:42:40.280641Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:40] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:45.629099Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:42:45.631561Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776922965629, 'signature': '4081a2165839cacc601dbddeeb756ee4d8725db88e4b8410c933e164d830c575'}"}
+{"timestamp": "2026-04-23T05:42:45.631889Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776922965630, 'signature': '197a1ddb0592830a36300e59cdba25f2b53b8ddc12ae1dc16f6c7f248221f686'}"}
+{"timestamp": "2026-04-23T05:42:45.658389Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:45] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:45.864829Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:45] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:46.901618Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:42:46.903433Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:46] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:42:47.176321Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:42:47.179059Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:47] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:47.547071Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:42:47.550953Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:47] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:42:50.293762Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:50] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:42:56.063085Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:12:56] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:00.704888Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:43:01.045672Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776922981045, 'signature': 'c2968609f5588fa4283da2d62d88286522af15411aac2314f89050abb9791869'}"}
+{"timestamp": "2026-04-23T05:43:01.046997Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776922981046, 'signature': 'ea216c07b6fc55350e883a6d7092277bf0038134946af275eb9a8ad4fc589eb9'}"}
+{"timestamp": "2026-04-23T05:43:01.066036Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:01] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:01.403852Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:01] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:03.083488Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:03.086141Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:03] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:04.000241Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:04.003195Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:04] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:04.295224Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:43:04.299461Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:04] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:06.066297Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:06] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:10.726279Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:10] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:16.031678Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:43:16.033871Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776922996032, 'signature': 'f26e665d8f616581b4be3e440e60fd2011155f0cde476f81e460c0803939e030'}"}
+{"timestamp": "2026-04-23T05:43:16.034078Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776922996033, 'signature': '62de70fad736d7f6506e142732620509fb46f366351e55a4e019f9a2545a3baf'}"}
+{"timestamp": "2026-04-23T05:43:16.052560Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:16] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:16.308182Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:16] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:20.737532Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:20] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:24.536973Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:43:24.539797Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:24.540924Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:24.548945Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:24] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:24.550436Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:24] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:24.554988Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:24] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:26.054409Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:26] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:30.279458Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:43:30.621423Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923010621, 'signature': '876dabdfa6d39c7c1e204bb72ec8c066ce1d30d99919850d1990bd9f8904d46f'}"}
+{"timestamp": "2026-04-23T05:43:30.622631Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923010622, 'signature': 'd28a8d64ebd09a59a23a6a524e6c0f5a8504c7b781c142ca2ebf2f62c0187ec2'}"}
+{"timestamp": "2026-04-23T05:43:30.645982Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:30] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:30.991802Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:30] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:32.322039Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:32] \"OPTIONS /api/order HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:32.630346Z", "level": "INFO", "name": "Orders", "message": "Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002'}"}
+{"timestamp": "2026-04-23T05:43:32.630860Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Intercepted MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002'}"}
+{"timestamp": "2026-04-23T05:43:32.931909Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Simulating order response for MARKET BUY BTCUSDT"}
+{"timestamp": "2026-04-23T05:43:32.932763Z", "level": "INFO", "name": "Orders", "message": "[DRY-RUN] Order successfully simulated. ID: 4424790962"}
+{"timestamp": "2026-04-23T05:43:32.934607Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:32] \"POST /api/order HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:33.267441Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:33.269151Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:33.269344Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:43:33.272013Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:33] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:33.274641Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:33] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:33.277718Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:33] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:33.609109Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923013608, 'signature': 'd1da1cd5adf594d3974418b8d8c54c68244ce78bb2f2e0f53e8c908d1e150884'}"}
+{"timestamp": "2026-04-23T05:43:33.610427Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923013610, 'signature': '0385752631278d3c7b36d2ad365ebeee08c7a0c2f3c8d6594e296f0edc4eb550'}"}
+{"timestamp": "2026-04-23T05:43:35.451268Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:35.454435Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:35] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:35.596388Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:35] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:37.248102Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:37.250988Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:37] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:40.606727Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:40] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:45.709339Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:43:46.049431Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923026049, 'signature': '6c8d6de1418eb0f6f8bddd6db38e02d2b6067da1aaac0bdef6371210c23104a6'}"}
+{"timestamp": "2026-04-23T05:43:46.050816Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923026050, 'signature': '0eeadb817cb4150b6b4d3a91cfaeab7c5c8361fb4b006a8127b88e8f8cb07d7e'}"}
+{"timestamp": "2026-04-23T05:43:46.070898Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:46] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:46.402733Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:46] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:47.834943Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:47.838328Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:47] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:50.261615Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:43:50.262870Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:43:50.267006Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:50] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:43:50.271256Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:50] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:51.052330Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:51] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:43:55.743675Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:13:55] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:01.020362Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:44:01.022771Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923041020, 'signature': 'ff3b9df9dc921efdedb30937f2c83045cd890acb2a97986c682c637af4f616ce'}"}
+{"timestamp": "2026-04-23T05:44:01.022963Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923041022, 'signature': '1c563ffe03d677f64890633b3e013dbdb4fc02bc03f79aa1d54118825c89b574'}"}
+{"timestamp": "2026-04-23T05:44:01.042233Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:01] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:01.323916Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:01] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:04.106687Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:44:04.107585Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:44:04.110274Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:04] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:44:04.113423Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:04] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:44:05.737686Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:05] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:05.831886Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:44:05.835818Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:05] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:11.101823Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:11] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:15.715696Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:44:16.038760Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923056038, 'signature': '842fa362c46bfcaae7150585f04c64779a24ccfe7238fd1cdb1be888c1d9436f'}"}
+{"timestamp": "2026-04-23T05:44:16.040783Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923056040, 'signature': '85b503da04c96b8e1644232636b86e32e3d1c712aebb3e2b2638f93b60557942'}"}
+{"timestamp": "2026-04-23T05:44:16.067020Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:16] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:16.433695Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:16] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:17.905389Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:44:17.910678Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:17] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:44:18.764393Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:44:18.766562Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:44:18.773639Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:18] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:18.780344Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:18] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:44:21.056928Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:21] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:25.728317Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:25] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:31.078850Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:44:31.079881Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923071079, 'signature': 'fa874a90b73e3357ec20b2eb3ef828a047a9f95791793385a8e9109cb43d12dd'}"}
+{"timestamp": "2026-04-23T05:44:31.081989Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923071081, 'signature': 'd848082f3b2c4af8de5e7eefd1bf54a06c6a911292c2eb77f9eea0d34092dd79'}"}
+{"timestamp": "2026-04-23T05:44:31.119588Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:31] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:31.308384Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:31] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:33.388796Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:44:33.391851Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:33] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:44:34.063844Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:44:34.066627Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:34] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:44:34.270840Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:44:34.274189Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:34] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:35.732630Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:35] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:44:41.049323Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:14:41] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:45:12.724413Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:45:13.084222Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923113083, 'signature': 'd1695ec97fb9a1d44a198b6079ea7a0282f77ccf1e9d752b60a39a4c76d4b21f'}"}
+{"timestamp": "2026-04-23T05:45:13.086006Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923113085, 'signature': '86281ad0cef00e09b9c2540e45146e8a8682ec5de6005bb502d45f65381d41ed'}"}
+{"timestamp": "2026-04-23T05:45:13.108030Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:15:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:45:13.464263Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:15:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:45:15.161809Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:45:15.164262Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:15:15] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:45:15.167405Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:45:15.171067Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:15:15] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:45:16.573980Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:45:16.578058Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:15:16] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:46:13.043465Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:46:13.044235Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923173042, 'signature': '29683e6ee5326fcaf30b170121e9634b0c591620bc765353b42dd7915d00e302'}"}
+{"timestamp": "2026-04-23T05:46:13.044472Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923173043, 'signature': '5319c84fe801875aaea6eb1076d33f9388f82f09601995d9bc68a7969c9e3697'}"}
+{"timestamp": "2026-04-23T05:46:13.073389Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:16:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:46:13.322000Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:16:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:46:14.456965Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:46:14.460137Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:16:14] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:46:14.522357Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:46:14.524073Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:46:14.528536Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:16:14] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:46:14.534587Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:16:14] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:12.724018Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:47:13.096647Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923233096, 'signature': '7d7ece2ac72b4233082a810784cb29b83109e195c5b0c8f62a002e2690e04fbf'}"}
+{"timestamp": "2026-04-23T05:47:13.098760Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923233098, 'signature': '612fb0f87962b4bbfb3d16e220d7c6c0fe19cbc15f088e098a05be0986ddf9a6'}"}
+{"timestamp": "2026-04-23T05:47:13.140500Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:13.493477Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:15.116312Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:47:15.119388Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:15] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:15.121709Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:15.122430Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:15.125960Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:15] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:15.129724Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:15] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:23.835176Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:47:23.837391Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923243835, 'signature': '3d74fc166e49ac06071da4c7baeb37cb3f5aa2312653d2439ad14785897355a7'}"}
+{"timestamp": "2026-04-23T05:47:23.837731Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923243836, 'signature': 'ca9a35b966a11b6eb102a3e8c35279001321390c41208cb118d466c362ce6e85'}"}
+{"timestamp": "2026-04-23T05:47:23.854474Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:23] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:24.084916Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:24] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:25.347862Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:25.348581Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:25.349844Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:47:25.351311Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:25] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:25.353239Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:25] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:25.356212Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:25] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:26.165785Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:26] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:31.032041Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:47:31.034213Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923251032, 'signature': '81051032456313109e55172468982a060b4680796bf687cc112908d198f6710d'}"}
+{"timestamp": "2026-04-23T05:47:31.034373Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923251033, 'signature': '25d8f729c221f437753d9c24e8e34166a3e880ca91b41791feaa3cb32a25cf1f'}"}
+{"timestamp": "2026-04-23T05:47:31.052031Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:31] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:31.320858Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:31] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:32.607811Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:47:32.611924Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:32] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:32.719472Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:32.724138Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:32] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:32.927516Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:32.930928Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:32] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:35.730455Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:35] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:41.044932Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:41] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:45.716094Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:47:46.051802Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923266051, 'signature': 'df3ebe820dbd584cf6e28ba08dee73e731bafb03d7a99f75699d77048ec7106a'}"}
+{"timestamp": "2026-04-23T05:47:46.053525Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923266053, 'signature': '9cf6bf28d878b9183a39e66f07963ba98b1477bab6f69c9a94375017009f631e'}"}
+{"timestamp": "2026-04-23T05:47:46.073636Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:46] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:46.430535Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:46] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:49.869199Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:49.869484Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:47:49.869750Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:47:49.873575Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:49] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:49.877305Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:49] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:49.880472Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:49] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:47:51.032048Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:51] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:47:55.729202Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:17:55] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:01.078315Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:48:01.081170Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923281079, 'signature': 'd5cc0e0ed2ae818f9de72b7ac4f39d468dcee2f50c9fc40d12194e33c8babeda'}"}
+{"timestamp": "2026-04-23T05:48:01.081660Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923281080, 'signature': '17e06fddf6f3448a43024c30787d3a393bfb7f056c263aa8175381c8f7292ca9'}"}
+{"timestamp": "2026-04-23T05:48:01.100706Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:01] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:01.315747Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:01] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:03.717471Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:48:03.720284Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:03] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:03.780982Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:48:03.783851Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:03] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:48:05.326542Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:48:05.329334Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:05] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:48:05.724532Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:05] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:11.064852Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:11] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:15.714603Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:48:16.056206Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923296055, 'signature': '8b037c8cd691f182d880864ec55f05623ef41d6809a6fc22cec21b47025d178f'}"}
+{"timestamp": "2026-04-23T05:48:16.058397Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923296057, 'signature': '1bb271ea22b6b52255dbb18332ced330a20c33aaca0d476318bb8437fda89b7f'}"}
+{"timestamp": "2026-04-23T05:48:16.086995Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:16] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:16.421734Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:16] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:17.694620Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:48:17.697847Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:17] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:17.722619Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:48:17.725730Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:17] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:48:18.012364Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:48:18.015872Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:18] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:48:21.052782Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:21] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:48:25.719315Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:18:25] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:49:13.060570Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:49:13.063316Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923353061, 'signature': '5aa49dc76aac63375d8b80ed5fffcaa1dff06bb9064ebf458e8602ea426c6707'}"}
+{"timestamp": "2026-04-23T05:49:13.064112Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923353062, 'signature': '74820739b3ac7d9f26a51aaa07a303754695a62a644e47151b442c0560bc6c74'}"}
+{"timestamp": "2026-04-23T05:49:13.083099Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:19:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:49:13.311714Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:19:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:49:18.591568Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:49:18.591899Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:49:18.592637Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:49:18.595832Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:19:18] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:49:18.599158Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:19:18] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:49:18.602348Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:19:18] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:50:12.722952Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:50:13.063691Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923413063, 'signature': 'e55479cc6169b6ceed8273d86e52f5ef756827886c5c8f33fdf0d08eacd1dc0d'}"}
+{"timestamp": "2026-04-23T05:50:13.065495Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923413064, 'signature': 'eaaecee9763e3dc56cd5ff7f152038855341223769399461f4452d5e7f684032'}"}
+{"timestamp": "2026-04-23T05:50:13.092713Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:20:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:50:13.425156Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:20:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:50:14.389105Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:50:14.391173Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:20:14] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:50:15.995259Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:50:15.996421Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:50:15.999983Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:20:15] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:50:16.004709Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:20:16] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:51:13.016697Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v2/account - Params: {'timestamp': 1776923473016, 'signature': '353933a57b2f5fe2460c1425482776d923271cc8583ef8a7afcb43b9bce49021'}"}
+{"timestamp": "2026-04-23T05:51:13.020111Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/ping - Params: {}"}
+{"timestamp": "2026-04-23T05:51:13.028353Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "GET https://testnet.binancefuture.com/fapi/v1/openOrders - Params: {'timestamp': 1776923473028, 'signature': '81200b9a9ed44e9b0bb3db7a3ec5f08af4b9e9525645697b68f49b5a96d22e18'}"}
+{"timestamp": "2026-04-23T05:51:13.056425Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:21:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:51:13.306514Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:21:13] \"GET /api/logs?lines=50 HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:51:15.031317Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [200] {}"}
+{"timestamp": "2026-04-23T05:51:15.033929Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:21:15] \"GET /api/ping HTTP/1.1\" 200 -"}
+{"timestamp": "2026-04-23T05:51:15.060300Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:51:15.063381Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:21:15] \"\u001b[35m\u001b[1mGET /api/open-orders HTTP/1.1\u001b[0m\" 502 -"}
+{"timestamp": "2026-04-23T05:51:15.220660Z", "level": "INFO", "name": "BinanceFuturesClient", "message": "Response: [401] {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action\"}"}
+{"timestamp": "2026-04-23T05:51:15.223980Z", "level": "INFO", "name": "werkzeug", "message": "127.0.0.1 - - [23/Apr/2026 11:21:15] \"\u001b[35m\u001b[1mGET /api/account HTTP/1.1\u001b[0m\" 502 -"}
